@@ -173,7 +173,7 @@ export default function Pricing() {
 
                         <div>
                             <button type="button" onClick={() => setQuantity("medium-hasPaper", -1)}>-</button>
-                            <input type="number"  value={quantities["medium-hasPaper"]} min="0"></input>
+                            <input type="number"  value={quantities["medium-hasPaper"]} min="0" readOnly></input>
                             <button type="button" onClick={() => setQuantity("medium-hasPaper", 1)}>+</button>
                         </div>
 
